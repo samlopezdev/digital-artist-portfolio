@@ -7,7 +7,7 @@ type ImageProps = {
 export const Image = ({ name, src, description }: ImageProps) => (
   <a
     href="#"
-    className="relative aspect-4/5 bg-slate-200 rounded-xl transition-transform shadow-lg shadow-primary/20 hover:scale-105 hover:rotate-2"
+    className="relative aspect-square lg:aspect-8/9 bg-slate-200 rounded-xl transition-transform shadow-lg shadow-primary/20 hover:scale-105 lg:hover:rotate-2"
     title={name}
   >
     <img

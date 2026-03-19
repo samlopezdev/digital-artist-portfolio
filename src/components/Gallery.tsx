@@ -2,13 +2,18 @@ import { Image } from "./Image";
 
 const images = [
   {
+    name: "Royal Courtyard",
+    src: "src/assets/images/royal-courtyard.webp",
+    description: "Ethereal sky painting with pink clouds and stars",
+  },
+  {
     name: "Lagoon Sunset",
     src: "src/assets/images/lagoon-sunset.webp",
     description: "Ethereal sky painting with pink clouds and stars",
   },
   {
-    name: "Pastel Flower",
-    src: "src/assets/images/pastel-flower.webp",
+    name: "Pastel Meadow",
+    src: "src/assets/images/pastel-meadow.webp",
     description: "Ethereal sky painting with pink clouds and stars",
   },
   {
@@ -17,18 +22,14 @@ const images = [
     description: "A boy and girl laying on their stomachs in the snow.",
   },
   {
+    name: "Pastel Flower",
+    src: "src/assets/images/pastel-flower.webp",
+    description: "Ethereal sky painting with pink clouds and stars",
+  },
+
+  {
     name: "Discovery",
     src: "src/assets/images/fantasy-couple.webp",
-    description: "Ethereal sky painting with pink clouds and stars",
-  },
-  {
-    name: "Flower Girl",
-    src: "src/assets/images/flower-girl.webp",
-    description: "Ethereal sky painting with pink clouds and stars",
-  },
-  {
-    name: "Royal Courtyard",
-    src: "src/assets/images/royal-courtyard.webp",
     description: "Ethereal sky painting with pink clouds and stars",
   },
 ];
@@ -45,7 +46,7 @@ export const Gallery = () => {
         </span>
       </div>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:gap-10 transition-all">
         {images.map(
           (image: { name: string; src: string; description: string }) => (
             <Image

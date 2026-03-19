@@ -4,7 +4,7 @@ import { FaPatreon } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
-    <footer className="border-t border-solid border-primary/10 px-20 lg:px-50 py-12 bg-white dark:bg-background-dark/50">
+    <footer className="border-t border-solid border-primary/10 px-2 md:px-8 lg:px-16 py-12 bg-white dark:bg-background-dark/50">
       <div className="lg:flex justify-between items-center gap-3">
         <div className="text-primary text-center ">
           <div className="flex items-center justify-center lg:justify-start">
