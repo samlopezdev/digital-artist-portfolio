@@ -9,14 +9,6 @@ export const Hero = () => {
         />
       </div>
 
-      {/* <div className="relative bg-slate-200 rounded-xl shadow-lg shadow-primary/20 md:hidden">
-        <img
-          src="src\assets\images\flower-girl.webp"
-          alt="Dreamy pastel digital painting of a a stem of flowers with soft pinks, purples, and blues."
-          className="object-cover w-full h-full rounded-xl"
-        />
-      </div> */}
-
       <div className="flex flex-col items-center-safe lg:items-start gap-4 text-center lg:text-left">
         <h1 className="text-slate-900 dark:text-slate-100 text-5xl md:text-6xl font-black leading-[1.1] tracking-[-0.033em]">
           Where Digital
