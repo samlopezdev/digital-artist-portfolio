@@ -10,7 +10,7 @@ export default function Contact() {
     <div className="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden bg-light">
       <div className="flex h-full flex-col">
         <Header />
-        <main className="flex flex-col items-center lg:py-16 pt-0  max-w-300 m-auto">
+        <main className="flex flex-col items-center lg:py-16 max-w-300 m-auto">
           <HeroAlt
             titleStart="Commi"
             titleEnd="sions"
