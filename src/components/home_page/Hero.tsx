@@ -1,10 +1,10 @@
 export const Hero = () => {
   return (
-    <section className="flex flex-col items-center lg:justify-between gap-10 lg:gap-2 w-full lg:flex-row py-12">
+    <section className="flex flex-col items-center gap-8 lg:gap-0 lg:justify-around lg:flex-row py-12">
       <div className="relative lg:aspect-square bg-slate-200 rounded-xl shadow-lg shadow-primary/20 lg:w-1/3">
         <img
           src="src\assets\images\flower-girl.webp"
-          alt="Dreamy pastel digital painting of a a stem of flowers with soft pinks, purples, and blues."
+          alt="Young girl picking flowers in a field."
           className="object-cover w-full h-full rounded-xl"
         />
       </div>
