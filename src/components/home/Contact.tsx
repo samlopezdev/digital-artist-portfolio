@@ -1,6 +1,6 @@
 export const Contact = () => {
     return (
-      <section className="flex flex-col items-center gap-8  bg-primary/5 md:rounded-4xl border border-primary/10 text-center w-full py-12 md:py-20 px-6 lg:px-20">
+      <section className="flex flex-col items-center gap-8  bg-primary/5 rounded-2xl md:rounded-4xl border border-primary/10 text-center w-full py-12 md:py-20 px-6 lg:px-20">
         <div className="flex flex-col gap-4 max-w-180 lg:max-w-160">
           <h2 className="text-slate-900 dark:text-slate-100 text-3xl md:text-5xl font-black leading-tight tracking-[-0.033em] text-pretty">
             Let's create something magical together!
