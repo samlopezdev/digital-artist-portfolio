@@ -13,7 +13,7 @@ export const PricingGuide = () => {
       </div>
 
       <div className="flex gap-8">
-        <div className="p-8 rounded-2xl transition-transform bg-primary/15 w-1/3">
+        <div className="p-8 rounded-2xl transition-transform bg-primary/8 w-1/3">
           <h3 className="text-2xl font-bold mb-6 flex items-center justify-between">
             Line Art
             <MdEdit className="text-primary" />
@@ -58,7 +58,7 @@ export const PricingGuide = () => {
           </ul>
         </div>
 
-        <div className="p-8 rounded-2xl transition-transform bg-primary/15 w-1/3">
+        <div className="p-8 rounded-2xl transition-transform bg-primary/8 w-1/3">
           <h3 className="text-2xl font-bold mb-6 flex items-center justify-between">
             Full Render
             <MdBrush className="text-primary" />

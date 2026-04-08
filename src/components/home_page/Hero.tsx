@@ -25,7 +25,7 @@ export const Hero = () => {
             View Gallery
           </button>
           <button className="flex min-w-35 cursor-pointer items-center justify-center rounded-xl h-12 px-6 bg-primary/10 text-primary text-base font-bold transition-colors hover:bg-primary/20">
-            About Me
+            <a href="/about">About Me</a>
           </button>
         </div>
       </div>

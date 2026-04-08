@@ -2,7 +2,7 @@ import { MdLandscape, MdPayments, MdCheck } from "react-icons/md";
 
 export const PaymentInfo = () => {
   return (
-    <section className="flex">
+    <section className="flex py-15">
       <div>
         <div className="bg-primary/15 flex flex-col gap-2">
           <h2 className="flex items-center gap-2 text-2xl font-bold mb-4">

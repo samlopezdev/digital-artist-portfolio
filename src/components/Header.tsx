@@ -7,8 +7,8 @@ export const Header = () => {
           <div className="size-8 flex items-center justify-center rounded-lg bg-primary/10">
             <MdOutlinePalette className="text-primary text-3xl" />
           </div>
-          <h2 className="text-slate-900 dark:text-slate-100 text-xl lg:text-2xl font-bold leading-tight tracking-[-0.015em]">
-            Aria Bloom
+          <h2 className="text-slate-900 dark:text-slate-100 text-xl lg:text-2xl font-bold leading-tight tracking-[-0.015em] border-b-3 border-transparent hover:border-b-primary hover:text-primary transition-colors">
+            <a href="/">Aria Bloom</a>
           </h2>
         </div>
 
