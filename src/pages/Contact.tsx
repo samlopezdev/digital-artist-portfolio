@@ -4,6 +4,7 @@ import { HeroAlt } from "../components/HeroAlt";
 import { CommisionInfo } from "../components/contact_page/CommissionInfo";
 import { PricingGuide } from "../components/contact_page/PricingGuide";
 import { PaymentInfo } from "../components/contact_page/PaymentInfo";
+import { Licensing } from "../components/contact_page/Licensing";
 
 export default function Contact() {
   return (
@@ -19,6 +20,7 @@ export default function Contact() {
           <CommisionInfo />
           <PricingGuide />
           <PaymentInfo/>
+          <Licensing/>
         </main>
         <Footer />
       </div>
