@@ -18,12 +18,13 @@ export default function About() {
           <section className="grid grid-cols-1 md:grid-cols-12 gap-10 py-15">
             <div className="lg:col-span-5 bg-slate-200 rounded-xl shadow-lg shadow-primary/20">
               <img
+                alt="Artist portrait."
                 src="src/assets/images/aria-portrait.jpg"
                 className="rounded-lg"
               />
             </div>
 
-            <div className="bg-primary/5 rounded-xl p-8 lg:col-span-7">
+            <div className="bg-primary/10 rounded-xl p-8 lg:col-span-7">
               <h2 className="flex gap-3 text-4xl font-bold tracking-tight mb-8">
                 Behind the Canvas <MdAutoFixHigh className="text-primary" />
               </h2>
@@ -69,7 +70,7 @@ export default function About() {
               </p>
             </div>
             <button className="flex min-w-50 cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold shadow-xl shadow-primary/25 hover:scale-105 active:scale-95 transition-transform">
-              Hire Me
+              View Gallery
             </button>
           </section>
         </main>

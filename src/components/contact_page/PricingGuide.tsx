@@ -36,22 +36,22 @@ export const PricingGuide = () => {
         </div>
 
         {/* Flat Color */}
-        <div className="p-8 rounded-2xl transition-transform bg-primary/15 w-1/3">
+        <div className="p-8 rounded-2xl transition-transform bg-primary/15 w-1/3 border-3 border-primary/20">
           <h3 className="text-2xl font-bold mb-6 flex items-center justify-between">
             Flat Color
             <MdPalette className="text-primary" />
           </h3>
 
           <ul className="space-y-4">
-            <li className="flex justify-between items-center py-2 border-b border-primary/10">
+            <li className="flex justify-between items-center py-2 border-b-2 border-primary/20">
               <span className="font-medium">Portrait</span>
               <span className="text-xl font-bold">$130</span>
             </li>
-            <li className="flex justify-between items-center py-2 border-b border-primary/10">
+            <li className="flex justify-between items-center py-2 border-b-2 border-primary/20">
               <span className="font-medium">Waist-up</span>
               <span className="text-xl font-bold">$120</span>
             </li>
-            <li className="flex justify-between items-center py-2 border-b border-primary/10">
+            <li className="flex justify-between items-center py-2 border-b-2 border-primary/20">
               <span className="font-medium">Full Body</span>
               <span className="text-xl font-bold">$200</span>
             </li>

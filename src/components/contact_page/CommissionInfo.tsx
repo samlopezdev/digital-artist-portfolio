@@ -35,7 +35,7 @@ const getStartedList = [
 export const CommisionInfo = () => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-12 gap-10 py-15">
-      <div className="bg-primary/15 rounded-xl p-8 lg:col-span-7">
+      <div className="bg-primary/10 rounded-xl p-8 lg:col-span-7">
         <h2 className="flex text-3xl font-bold mb-5">
           <MdOutlineAutoAwesome className="text-primary mr-3" />
           How to Get Started
