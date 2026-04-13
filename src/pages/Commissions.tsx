@@ -1,12 +1,12 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { HeroAlt } from "../components/HeroAlt";
-import { CommisionInfo } from "../components/contact_page/CommissionInfo";
-import { PricingGuide } from "../components/contact_page/PricingGuide";
-import { PaymentInfo } from "../components/contact_page/PaymentInfo";
-import { Licensing } from "../components/contact_page/Licensing";
-import { Deliverables } from "../components/contact_page/Deliverables";
-import { AdditionalNotes } from "../components/contact_page/AdditionalNotes";
+import { CommisionInfo } from "../components/commission_page/CommissionInfo";
+import { PricingGuide } from "../components/commission_page/PricingGuide";
+import { PaymentInfo } from "../components/commission_page/PaymentInfo";
+import { Licensing } from "../components/commission_page/Licensing";
+import { Deliverables } from "../components/commission_page/Deliverables";
+import { AdditionalNotes } from "../components/commission_page/AdditionalNotes";
 
 export default function Contact() {
   return (
