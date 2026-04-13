@@ -6,6 +6,7 @@ import { PricingGuide } from "../components/contact_page/PricingGuide";
 import { PaymentInfo } from "../components/contact_page/PaymentInfo";
 import { Licensing } from "../components/contact_page/Licensing";
 import { Deliverables } from "../components/contact_page/Deliverables";
+import { AdditionalNotes } from "../components/contact_page/AdditionalNotes";
 
 export default function Contact() {
   return (
@@ -25,6 +26,7 @@ export default function Contact() {
             <Licensing />
             <Deliverables />
           </section>
+          <AdditionalNotes />
         </main>
         <Footer />
       </div>
