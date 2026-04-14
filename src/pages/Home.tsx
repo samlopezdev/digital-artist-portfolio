@@ -1,7 +1,7 @@
-import { Contact } from "../components/home_page/CTA";
-import { Gallery } from "../components/home_page/Gallery";
 import { Header } from "../components/Header";
 import { Hero } from "../components/home_page/Hero";
+import { Gallery } from "../components/home_page/Gallery";
+import { CallToAction } from "../components/CTA";
 import { Footer } from "../components/Footer";
 
 export default function Home() {
@@ -12,7 +12,12 @@ export default function Home() {
         <main className="flex flex-col items-center lg:py-16 pt-0 px-2 md:px-4 lg:px-0 max-w-300 m-auto">
           <Hero />
           <Gallery />
-          <Contact />
+          <CallToAction
+            heading="Let's create something magical together!"
+            text="I am currently available for freelance opportunities, custom commissions, and creative collaborations. Whether you have a specific project in mind or just want to say hello, I'd love to hear from you!"
+            btnText="Hire Me"
+            link="/contact"
+          />
         </main>
         <Footer />
       </div>
