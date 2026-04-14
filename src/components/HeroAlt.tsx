@@ -7,7 +7,7 @@ interface HeroAltProps {
 export const HeroAlt = ({ titleStart, titleEnd, text }: HeroAltProps) => {
     return (
       <section className="text-center py-15">
-        <h1 className="text-slate-900 dark:text-slate-100 text-5xl lg:text-7xl font-bold leading-tight tracking-[-0.015em]">
+        <h1 className="text-slate-900 dark:text-slate-100  text-5xl lg:text-7xl font-bold leading-tight tracking-[-0.015em]">
           {titleStart}
           <span className="text-primary">{titleEnd}</span>
         </h1>

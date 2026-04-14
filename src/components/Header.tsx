@@ -7,9 +7,11 @@ export const Header = () => {
           <div className="size-8 flex items-center justify-center rounded-lg bg-primary/10">
             <MdOutlinePalette className="text-primary text-3xl" />
           </div>
-          <h2 className="text-slate-900 dark:text-slate-100 text-xl lg:text-2xl font-bold leading-tight tracking-[-0.015em] border-b-3 border-transparent hover:border-b-primary hover:text-primary transition-colors">
-            <a href="/">Aria Bloom</a>
-          </h2>
+          <a href="/">
+            <h2 className="text-slate-900 dark:text-slate-100 text-xl lg:text-2xl font-bold leading-tight tracking-[-0.015em] border-b-3 border-transparent hover:border-b-primary hover:text-primary transition-colors">
+              Aria Bloom
+            </h2>
+          </a>
         </div>
 
         <nav>
@@ -23,8 +25,12 @@ export const Header = () => {
             <li className="text-slate-700 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium leading-normal border-b-2 border-transparent hover:border-b-primary">
               <a href="/commissions">Commissions</a>
             </li>
-            <li className="bg-primary text-white rounded-lg flex min-w-25 cursor-pointer items-center justify-center h-10 px-5 text-sm font-bold shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95">
-              <a href="/contact">Hire Me</a>
+            <li>
+              <a
+                href="/contact"
+                className="bg-primary text-white rounded-lg flex min-w-25 cursor-pointer items-center justify-center h-10 px-5 text-sm font-bold shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95">
+                <span>Hire Me</span>
+              </a>
             </li>
           </ul>
         </nav>
