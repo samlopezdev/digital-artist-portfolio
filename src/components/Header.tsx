@@ -17,7 +17,7 @@ export const Header = () => {
         <nav>
           <ul className="flex items-center gap-4 md:gap-8">
             <li className="text-slate-700 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium leading-normal border-b-2 border-transparent hover:border-b-primary">
-              <a href="#portfolio">Portfolio</a>
+              <a href="/gallery">Gallery</a>
             </li>
             <li className="text-slate-700 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium leading-normal border-b-2 border-transparent hover:border-b-primary">
               <a href="/about">About</a>

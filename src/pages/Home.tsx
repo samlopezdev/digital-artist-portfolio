@@ -1,6 +1,6 @@
 import { Header } from "../components/Header";
 import { Hero } from "../components/home_page/Hero";
-import { Gallery } from "../components/home_page/Gallery";
+import { Gallery } from "../components/home_page/Featured";
 import { CallToAction } from "../components/CTA";
 import { Footer } from "../components/Footer";
 
