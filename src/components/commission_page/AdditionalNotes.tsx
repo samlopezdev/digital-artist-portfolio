@@ -10,11 +10,11 @@ export const AdditionalNotes = () => {
           reserve the right to share the final work in my portfolio unless
           privacy is requested.
         </p>
-        <div className="mt-10">
-          <button className="bg-primary text-white h-14 px-12 rounded-full font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform active:scale-95">
+        <a href="/contact" className="mt-10 inline-block">
+          <button className="cursor-pointer bg-primary text-white h-14 px-12 rounded-full font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform active:scale-95">
             Apply for Commission
           </button>
-        </div>
+        </a>
       </section>
     );
 }

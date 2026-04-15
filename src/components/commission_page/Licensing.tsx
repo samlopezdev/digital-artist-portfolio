@@ -3,7 +3,7 @@ import { MdHistoryEdu } from "react-icons/md";
 export const Licensing = () => {
   return (
     <section className="md:col-span-8 bg-primary/8 rounded-3xl p-12">
-      <h2 className="text-3xl font-black font-headline mb-8 tracking-tighter">
+      <h2 className="text-4xl font-black font-headline mb-8 tracking-tighter">
         Commercial <span className="text-primary">Licensing</span>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
