@@ -9,11 +9,11 @@ export default function Gallery() {
         <Header />
         <main className="flex flex-col items-center lg:py-16 max-w-300 m-auto">
           <HeroAlt
-            titleStart="Artwork"
+            titleStart="Artwork "
             titleEnd="Gallery"
             text="A collection of completed works by Aria ethereal digital explorations where light meets petal in a dance of digital abstraction. Curated by Aria Bloom"
           />
-          <section className="-m-1 flex flex-row sm:flex-wrap md:-m-2">
+          <section className="m-1 flex flex-row sm:flex-wrap md:m-2">
             <div className="flex w-full sm:w-1/2 flex-wrap lg:flex-row flex-row-reverse">
               <div className="w-full lg:w-1/2 p-1 md:p-2">
                 <img
@@ -61,7 +61,7 @@ export default function Gallery() {
               </div>
             </div>
           </section>
-          <section className="-m-1 flex flex-row sm:flex-wrap md:-m-2 py-4">
+          <section className="m-1 flex flex-row sm:flex-wrap md:m-2 pb-15">
             <div className="flex w-full sm:w-1/2 flex-wrap lg:flex-row flex-row-reverse">
               <div className="w-full lg:w-1/2 p-1 md:p-2">
                 <img
@@ -111,8 +111,8 @@ export default function Gallery() {
           </section>
 
           <CallToAction
-            heading="Call to Action"
-            text="Send to About page plz"
+            heading="Get to Know the Artist"
+            text="Curious about the person behind the work? Explore my background, influences, and the passion behind each piece."
             btnText="About Me"
             link="/about"
           />
