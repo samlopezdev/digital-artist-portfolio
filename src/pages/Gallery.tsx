@@ -1,6 +1,7 @@
 import { CallToAction } from "../components/CTA";
 import { Header } from "../components/Header";
 import { HeroAlt } from "../components/HeroAlt";
+import { Footer } from "../components/Footer"
 
 export default function Gallery() {
   return (
@@ -19,7 +20,7 @@ export default function Gallery() {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="src/assets/images/fullmoon-fantasy.webp"
+                  src="src/assets/images/lake-sunset.webp"
                 />
               </div>
               <div className="w-full lg:w-1/2 p-1 md:p-2">
@@ -67,7 +68,7 @@ export default function Gallery() {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="src/assets/images/fantasy-castle.webp"
+                  src="src/assets/images/fullmoon-fantasy.webp"
                 />
               </div>
               <div className="w-full lg:w-1/2 p-1 md:p-2">
@@ -81,7 +82,7 @@ export default function Gallery() {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center max-h-none lg:max-h-250"
-                  src="src/assets/images/lake-sunset.webp"
+                  src="src/assets/images/snowy-mountain.webp"
                 />
               </div>
             </div>
@@ -104,7 +105,7 @@ export default function Gallery() {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="src/assets/images/snowy-mountain.webp"
+                  src="src/assets/images/fantasy-castle.webp"
                 />
               </div>
             </div>
@@ -117,6 +118,7 @@ export default function Gallery() {
             link="/about"
           />
         </main>
+        <Footer />
       </div>
     </div>
   );

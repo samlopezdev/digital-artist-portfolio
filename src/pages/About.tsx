@@ -59,9 +59,9 @@ export default function About() {
             </div>
           </section>
           <CallToAction
-            heading="Let's create something magical together!"
-            text="I am currently available for freelance opportunities, custom commissions, and creative collaborations. Whether you have a specific project in mind or just want to say hello, I'd love to hear from you!"
-            btnText="View Gallery"
+            heading="Let’s Create Something for You"
+            text="To get started on your commission, take a look at the pricing options and guidelines that will help you bring your idea to life."
+            btnText="Commission Details"
             link="/gallery"
           />
         </main>
