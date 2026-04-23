@@ -1,4 +1,4 @@
-import { Image } from "../Image";
+import { Image } from "./Image";
 
 const images = [
   {
@@ -34,7 +34,7 @@ const images = [
   },
 ];
 
-export const Gallery = () => {
+export const Featured = () => {
   return (
     <section className="flex flex-col gap-8 py-12 md:py-20">
       <div className=" flex justify-between items-center">

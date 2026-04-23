@@ -14,7 +14,7 @@ export default function Gallery() {
             titleEnd="Gallery"
             text="A collection of completed works by Aria ethereal digital explorations where light meets petal in a dance of digital abstraction. Curated by Aria Bloom"
           />
-          <section className="m-1 flex flex-row sm:flex-wrap md:m-2">
+          <section className="flex flex-row sm:flex-wrap">
             <div className="flex w-full sm:w-1/2 flex-wrap lg:flex-row flex-row-reverse">
               <div className="w-full lg:w-1/2 p-1 md:p-2">
                 <img
@@ -62,7 +62,7 @@ export default function Gallery() {
               </div>
             </div>
           </section>
-          <section className="m-1 flex flex-row sm:flex-wrap md:m-2 pb-15">
+          <section className="flex flex-row sm:flex-wrap pb-15">
             <div className="flex w-full sm:w-1/2 flex-wrap lg:flex-row flex-row-reverse">
               <div className="w-full lg:w-1/2 p-1 md:p-2">
                 <img

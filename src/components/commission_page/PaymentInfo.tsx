@@ -4,7 +4,7 @@ export const PaymentInfo = () => {
   return (
     <section className="flex py-15 w-full gap-5">
       <div>
-        <div className="bg-primary/8 rounded-2xl flex flex-col items-baseline gap-2 p-5 mb-5">
+        <div className="bg-primary/8 rounded-lg 2xl:rounded-2xl flex flex-col items-baseline gap-2 p-5 mb-5">
           <h2 className="flex items-center gap-2 text-2xl font-bold mb-4">
             <MdLandscape className="text-primary" /> Backgrounds
           </h2>
@@ -17,7 +17,7 @@ export const PaymentInfo = () => {
           </div>
         </div>
 
-        <div className="bg-primary/20 rounded-2xl p-5">
+        <div className="bg-primary/20 rounded-lg 2xl:rounded-2xl p-5">
           <h2 className="flex items-center text-2xl font-bold mb-4 gap-2">
             <MdPayments className="text-primary" /> Payment
           </h2>
@@ -34,10 +34,10 @@ export const PaymentInfo = () => {
           </ul>
         </div>
       </div>
-      <div className="rounded-3xl overflow-hidden aspect-square md:aspect-auto shadow-xl shadow-primary/5 w-2/3">
+      <div className="rounded-lg 2xl:rounded-2xl overflow-hidden aspect-square md:aspect-auto shadow-xl shadow-primary/5 w-2/3">
         <img
           src="src/assets/images/ForestHouseWallpaper-min.png"
-          className="w-full h-full object-cover rounded-2xl"
+          className="w-full h-full object-cover rounded-lg 2xl:rounded-2xl"
         />
       </div>
     </section>

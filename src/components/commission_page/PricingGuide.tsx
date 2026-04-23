@@ -2,7 +2,7 @@ import { MdEdit, MdPalette, MdBrush } from "react-icons/md";
 
 export const PricingGuide = () => {
   return (
-    <section className="bg-white rounded-xl shadow-lg shadow-primary/20 p-12 w-full">
+    <section className="bg-white rounded-lg 2xl:rounded-2xl shadow-lg shadow-primary/20 p-12 w-full">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-black tracking-tighter mb-2">
           Pricing <span className="text-primary">Guide</span>

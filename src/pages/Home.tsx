@@ -1,8 +1,8 @@
 import { Header } from "../components/Header";
 import { Hero } from "../components/home_page/Hero";
-import { Gallery } from "../components/home_page/Featured";
-import { CallToAction } from "../components/CTA";
 import { Footer } from "../components/Footer";
+import { Featured } from "../components/home_page/Featured";
+import { CallToAction } from "../components/CTA";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <Header />
         <main className="flex flex-col items-center lg:py-16 pt-0 px-2 md:px-4 lg:px-0 max-w-300 m-auto">
           <Hero />
-          <Gallery />
+          <Featured />
           <CallToAction
             heading="Let's create something magical together!"
             text="I am currently available for freelance opportunities, custom commissions, and creative collaborations. Whether you have a specific project in mind or just want to say hello, I'd love to hear from you!"

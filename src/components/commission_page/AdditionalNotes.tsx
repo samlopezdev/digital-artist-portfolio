@@ -1,6 +1,6 @@
 export const AdditionalNotes = () => {
     return (
-      <section className="w-full bg-white/40 border border-primary/10 rounded-3xl p-10 text-center backdrop-blur-sm">
+      <section className="w-full bg-white/40 border border-primary/10 rounded-lg 2xl:rounded-2xl p-10 text-center backdrop-blur-sm">
         <h2 className="text-xl font-bold font-headline mb-4 uppercase tracking-[0.2em] text-slate-500">
           Additional <span className="text-primary">Notes</span>
         </h2>
@@ -11,7 +11,7 @@ export const AdditionalNotes = () => {
           privacy is requested.
         </p>
         <a href="/contact" className="mt-10 inline-block">
-          <button className="cursor-pointer bg-primary text-white h-14 px-12 rounded-full font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform active:scale-95">
+          <button className="cursor-pointer bg-primary text-white h-14 px-12 rounded-full font-bold shadow-lg shadow-primary/20 hover:scale-105 active:scale-95 transition-transform">
             Apply for Commission
           </button>
         </a>

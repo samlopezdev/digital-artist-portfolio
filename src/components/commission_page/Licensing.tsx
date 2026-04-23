@@ -2,7 +2,7 @@ import { MdHistoryEdu } from "react-icons/md";
 
 export const Licensing = () => {
   return (
-    <section className="md:col-span-8 bg-primary/8 rounded-3xl p-12">
+    <section className="md:col-span-8 bg-primary/8 rounded-lg 2xl:rounded-2xl p-12">
       <h2 className="text-4xl font-black font-headline mb-8 tracking-tighter">
         Commercial <span className="text-primary">Licensing</span>
       </h2>
@@ -40,7 +40,7 @@ export const Licensing = () => {
 
       <div className="mt-12 pt-12 border-t border-primary/10">
         <h2 className="text-2xl font-bold font-headline mb-4 flex items-center gap-2">
-          <MdHistoryEdu className="text-primary"/>
+          <MdHistoryEdu className="text-primary" />
           Revisions
         </h2>
         <p className="text-slate-700">

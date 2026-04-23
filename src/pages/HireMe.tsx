@@ -14,6 +14,7 @@ export default function HireMe() {
             titleEnd="Ethereal"
             text="Transforming your ideas into ditital dreamscapes. Fill out the details below to start out collaborative journey."
           />
+          <img src=""/>
           <section className="rounded-4xl p-8 md:p-12 shadow-lg shadow-primary/20 border border-primary/5 bg-white w-full pb-1">
             <form className="space-y-5">
               <fieldset className="flex gap-3">

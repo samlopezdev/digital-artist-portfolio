@@ -17,15 +17,15 @@ export default function About() {
           />
 
           <section className="grid grid-cols-1 md:grid-cols-12 gap-10 py-15">
-            <div className="lg:col-span-5 bg-slate-200 rounded-xl shadow-lg shadow-primary/20">
+            <div className="lg:col-span-5 bg-slate-200 rounded-lg 2xl:rounded-2xl shadow-lg shadow-primary/20">
               <img
                 alt="Artist portrait."
                 src="src/assets/images/aria-portrait.jpg"
-                className="rounded-lg"
+                className="rounded-lg 2xl:rounded-2xl"
               />
             </div>
 
-            <div className="bg-primary/10 rounded-xl p-8 lg:col-span-7">
+            <div className="bg-primary/10 rounded-lg 2xl:rounded-2xl p-8 lg:col-span-7">
               <h2 className="flex gap-3 text-4xl font-bold tracking-tight mb-8">
                 Behind the Canvas <MdAutoFixHigh className="text-primary" />
               </h2>
