@@ -16,16 +16,16 @@ export default function About() {
             text={"Discover more about the visionary behind the artwork"}
           />
 
-          <section className="grid grid-cols-1 md:grid-cols-12 gap-10 py-15">
-            <div className="lg:col-span-5 bg-slate-200 rounded-lg 2xl:rounded-2xl shadow-lg shadow-primary/20">
+          <section className="grid grid-cols-1 md:grid-cols-12 gap-10 py-15 px-5 lg:px-0">
+            <div className="md:col-span-6 lg:col-span-5 bg-slate-200 rounded-lg 2xl:rounded-2xl shadow-lg shadow-primary/20">
               <img
                 alt="Artist portrait."
                 src="src/assets/images/aria-portrait.jpg"
-                className="rounded-lg 2xl:rounded-2xl"
+                className="rounded-lg 2xl:rounded-2xl object-cover w-full h-full"
               />
             </div>
 
-            <div className="bg-primary/10 rounded-lg 2xl:rounded-2xl p-8 lg:col-span-7">
+            <div className="bg-primary/10 rounded-lg 2xl:rounded-2xl p-8 lg:col-span-7 md:col-span-6">
               <h2 className="flex gap-3 text-4xl font-bold tracking-tight mb-8">
                 Behind the Canvas <MdAutoFixHigh className="text-primary" />
               </h2>
